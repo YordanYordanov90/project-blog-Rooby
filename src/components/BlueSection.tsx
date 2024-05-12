@@ -31,7 +31,7 @@ const BlueSection = () => {
       <div className="flex flex-col container gap-y-20">
         <div className="flex sm:flex-row flex-col items-center max-sm:px-4">
           <h1 className="font-inter font-bold text-white text-5xl max-sm:text-center max-w-[39.5rem]">
-            Here `&apos;`s how Rooby can benefit your business
+            Here s how Rooby can benefit your business
           </h1>
           <p className="font-inter font-normal text-white text-lg leading-7 max-sm:text-center mt-9 max-w-[30.5rem]">
             Build more meaningful and lasting relationships — better understand
