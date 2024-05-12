@@ -18,8 +18,8 @@ const Hero = () => {
             </button>
             </form>
             </div>
-            <Image className="absolute top-[70px] -right-[178px] max-xl:static max-xl:self-center max-sm:mt-[70px]"
-             src="./Image1.png" alt="" /></Image>
+            <img className="absolute top-[70px] -right-[178px] max-xl:static max-xl:self-center max-sm:mt-[70px]"
+             src="./Image1.png" alt="" />
         </div>
         <div>
             <img className='max-w-[1180px] mx-auto mt-[70px] mb-[88px] px-5 max-sm:mt-0 max-lg:mb-[60px]'
