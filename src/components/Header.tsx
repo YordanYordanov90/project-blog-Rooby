@@ -8,7 +8,7 @@ type HeaderProps = React.DetailedHTMLProps<
 const links = [
   { name: 'Product', href: '#', target: '_self' },
   { name: 'Pricing', href: '/pricing', target: '_self' },
-  { name: 'Company', href: '#', target: '_self' },
+  { name: 'Company', href: '/company', target: '_self' },
   { name: 'Blog', href: '/blog', target: '_self' },
   { name: 'Contact', href: '/contacts', target: '_self' },
 ]
@@ -18,12 +18,12 @@ const Header = (props: HeaderProps ) => {
   return (
     <header
       {...props}
-      className='h-[80px] container flex items-center mx-auto max-w-[1140px]'>
-        <Link href={'/'} className=' text-[25px] font-black leading-[28px]'>
-          Rooby
+      className='h-[80px] container flex items-center mx-auto px-24  bg-[#F4F4F4] sticky '>
+        <Link href={'/'} className=' text-[25px] font-black pl-[6rem] leading-[28px]'>
+          Roooby
         </Link>
-        <nav className='ml-[100px] lg:block hidden'>
-          <ul className='flex items-center space-x-[47px]'>
+        <nav className='ml-[100px] lg:block hidden '>
+          <ul className='flex items-center px-10 space-x-[47px]'>
             {links?.map ((element, index, array)=>(
                <li key={index}>
                 
