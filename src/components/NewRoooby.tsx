@@ -36,7 +36,7 @@ const NewRoooby = () => {
                     width={50}
                     height={50}
                     className="rounded-full"
-                    src="/oval1.png"
+                    src="/Oval1.png"
                   />
                   <div>
                     <p className="font-bold leading-loose">Nellie Foster</p>
@@ -66,7 +66,7 @@ const NewRoooby = () => {
                     width={50}
                     height={50}
                     className="rounded-full"
-                    src="/oval2.png" 
+                    src="/Oval2.png"
                   />
                   <div>
                     <p className="font-bold leading-loose">Lawrence Gibbs</p>

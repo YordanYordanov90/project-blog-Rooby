@@ -26,7 +26,7 @@ const Customers = () => {
             </div>
           </div>
           <div className="-mt-8 flex items-center gap-5">
-            <Image alt="Lola Ross" src="/oval3.png" width={50} height={50} className="rounded-full" />
+            <Image alt="Lola Ross" src="/Oval3.png" width={50} height={50} className="rounded-full" />
             <div>
               <p className="font-bold leading-loose">Lola Ross</p>
               <p className="text-customGray leading-loose">Marketing Director</p>
@@ -44,7 +44,7 @@ const Customers = () => {
             </div>
           </div>
           <div className="-mt-8 flex items-center gap-5">
-            <Image alt="Lola Ross" src="/oval4.png" width={50} height={50} className="rounded-full" />
+            <Image alt="Lola Ross" src="/Oval4.png" width={50} height={50} className="rounded-full" />
             <div>
               <p className="font-bold leading-loose">Lola Ross</p>
               <p className="text-customGray leading-loose">Marketing Director</p>
@@ -62,7 +62,7 @@ const Customers = () => {
             </div>
           </div>
           <div className="-mt-8 flex items-center gap-5">
-            <Image alt="Lola Ross" src="/oval5.png" width={50} height={50} className="rounded-full" />
+            <Image alt="Lola Ross" src="/Oval5.png" width={50} height={50} className="rounded-full" />
             <div>
               <p className="font-bold leading-loose">Lola Ross</p>
               <p className="text-customGray leading-loose">Marketing Director</p>

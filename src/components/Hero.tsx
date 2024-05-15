@@ -30,16 +30,16 @@ const Hero = () => {
         </div>
         <Image
           className="absolute top-[70px] -right-[178px] max-xl:static max-xl:self-center max-sm:mt-[70px]"
-          src="/Image1.png" // Path to your image in the public directory
+          src="/Image1.png" 
           alt="Description for Image1"
-          width={600} // Set appropriate width
-          height={400} // Set appropriate height
+          width={600}
+          height={400} 
         />
       </div>
       <div>
         <Image
           className="max-w-[1180px] mx-auto mt-[70px] mb-[88px] px-5 max-sm:mt-0 max-lg:mb-[60px]"
-          src="/Clients.png" // Path to your image in the public directory
+          src="/Clients.png" 
           alt="Description for Clients"
           width={1180}
           height={500}
