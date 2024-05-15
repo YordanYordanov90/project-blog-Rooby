@@ -31,12 +31,12 @@ const NewRoooby = () => {
                   just keeps getting sunnier.
                 </p>
                 <div className="flex items-center gap-5">
-                  <img
+                  <Image
                     alt="Nellie Foster"
-                    width="50"
-                    height="50"
+                    width={50}
+                    height={50}
                     className="rounded-full"
-                    src="./oval1.png"
+                    src="/oval1.png"
                   />
                   <div>
                     <p className="font-bold leading-loose">Nellie Foster</p>
@@ -61,12 +61,12 @@ const NewRoooby = () => {
                   already does. It’s just perfect.
                 </p>
                 <div className="flex items-center gap-5">
-                  <img
-                    alt="Lawrence Gibbs"
-                    width="50"
-                    height="50"
+                  <Image
+                    alt="Nellie Foster"
+                    width={50}
+                    height={50}
                     className="rounded-full"
-                    src="./oval2.png"
+                    src="/oval2.png" 
                   />
                   <div>
                     <p className="font-bold leading-loose">Lawrence Gibbs</p>
