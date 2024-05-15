@@ -69,13 +69,13 @@ const PricingSection = () => {
             </div>
           ))}
         </div>
-        <div className=" container border-t-black my-[150px] p-8 flex items-center justify-center space-x-8">
+        <div className=" container border-t border-t-black my-[150px] py-16 flex items-center justify-center space-x-8">
           <h2 className="font-bold text-4xl">
             Need help choosing the right plan?
           </h2>
-          <div className="space-x-6">
-            <button>Contact sales</button>
-            <button>Compare plans</button>
+          <div className="space-x-7">
+            <button className='border border-slate-500 rounded-lg px-6 py-4 text-xl font-bold'>Contact sales</button>
+            <button className='border border-slate-500 rounded-lg px-6 py-4 text-xl font-bold text-white bg-[#150050]'>Compare plans</button>
           </div>
         </div>
       </div>
