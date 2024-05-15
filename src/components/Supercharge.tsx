@@ -25,7 +25,7 @@ const SuperchargeSection = () => {
       </div>
       <Image
         alt="background image"
-        src="/bg.png"
+        src="/BG.png"
         width={1000}
         height={580}
         className="absolute z-[-1] top-0 left-0 w-full h-full object-cover"
