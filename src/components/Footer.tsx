@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from 'next/image';
 
 type MainFooterProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLElement>,
@@ -73,7 +74,12 @@ export default function MainFooter(props: MainFooterProps) {
           </p>
           <div className="mt-[22px] flex items-center gap-4 max-sm:justify-center">
             <div>
-              <img src="./SocialMedia.png" alt="" />
+            <Image
+        src="/SocialMedia.png"
+        alt="Social Media"
+        width={100} 
+        height={100} 
+      />
             </div>
           </div>
           <div>
