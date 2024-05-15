@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import PricingSection from "./PricingSection";
 
 const page = () => {
   return (
-    <div>Pricing</div>
-  )
-}
+    <>
+      <PricingSection />
+    </>
+  );
+};
 
-export default page
+export default page;

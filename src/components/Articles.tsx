@@ -55,7 +55,7 @@ const Articles = () => {
           </h3>
           <p className=" mt-6 text-lg leading-[28px]">
             Market like the most successful companies in the world with Agile
-            CRM's marketing automation software.{" "}
+            CRM`&apos;` marketing automation software.
           </p>
           <ul className="mt-5 space-y-4 text-lg">
             <li className="flex gap-5">
