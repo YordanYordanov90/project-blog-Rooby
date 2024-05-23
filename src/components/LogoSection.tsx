@@ -4,7 +4,8 @@ import React from "react";
 
 const LogoSection = () => {
   return (
-    <div className="container bg-[#F4F4F4] mx-auto  py-10 text-center">
+    <div className='bg-[#F4F4F4]'>
+    <div className="container  mx-auto  py-10 text-center">
       <div className="mb-6 mt-[120px]">
         <h1 className="text-5xl pb-5 font-bold">Over 300+ integrations</h1>
         <p className="text-lg pb-10">
@@ -94,6 +95,7 @@ const LogoSection = () => {
           See all apps and extensions &gt;
         </Link>
       </div>
+    </div>
     </div>
   );
 };

@@ -27,9 +27,9 @@ const BlueSection = () => {
   const [isSelected, setSelected] = useState<number | null>(null);
 
   return (
-    <section className="bg-[#150050] flex items-center px-[7rem] sm:py-[120px] py-16">
-      <div className="flex flex-col container gap-y-20">
-        <div className="flex sm:flex-row flex-col items-center max-sm:px-4">
+    <section className="bg-[#150050] flex items-center justify-center px-[7rem] sm:py-[120px] py-16">
+      <div className="flex flex-col container gap-y-20 mx-auto">
+        <div className="flex sm:flex-row flex-col items-center max-sm:px-4 justify-center">
           <h1 className="font-inter font-bold text-white text-5xl max-sm:text-center max-w-[39.5rem]">
             Here s how Rooby can benefit your business
           </h1>
@@ -40,7 +40,7 @@ const BlueSection = () => {
           </p>
         </div>
 
-        <div className="flex sm:flex-row flex-col space-x-4 sm:gap-x-2 gap-y-2 max-sm:px-4 sm:h-[27.5rem]">
+        <div className="flex sm:flex-row flex-col space-x-4 sm:gap-x-2 gap-y-2 max-sm:px-4 sm:h-[27.5rem] justify-center">
           {cards.map((card, i) => (
             <div
               key={i}

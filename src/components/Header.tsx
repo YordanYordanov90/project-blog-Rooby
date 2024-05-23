@@ -13,35 +13,32 @@ const links = [
   { name: 'Contact', href: '/contacts', target: '_self' },
 ]
 
-const Header = (props: HeaderProps ) => {
-
+const Header = (props: HeaderProps) => {
   return (
     <header
       {...props}
-      className='h-[80px] container flex items-center mx-auto px-24  bg-[#F4F4F4] sticky '>
-        <Link href={'/'} className=' text-[25px] font-black pl-[6rem] leading-[28px]'>
+      className="h-[80px] w-full flex items-center bg-[#F4F4F4] ">
+      <div className="container mx-auto flex items-center px-24">
+        <Link href={'/'} className="text-[25px] font-black pl-[6rem] leading-[28px]">
           Roooby
         </Link>
-        <nav className='ml-[100px] lg:block hidden '>
-          <ul className='flex items-center px-10 space-x-[47px]'>
-            {links?.map ((element, index, array)=>(
-               <li key={index}>
-                
+        <nav className="ml-[100px] lg:block hidden">
+          <ul className="flex items-center px-10 space-x-[47px]">
+            {links?.map((element, index) => (
+              <li key={index}>
                 <Link href={element.href} target={element.target}>
-                {element.name}
+                  {element.name}
                 </Link>
-               </li>
+              </li>
             ))}
           </ul>
         </nav>
-        <div className='lg:flex hidden items-center ml-auto space-x-[20px] text-[12px]'>
-          <button className='h-[32px] px-[20px] flex items-center bg-white border border-[#DCDCDC] text-black rounded-[5px] font-bold'>Log in</button>
-          <button className='h-[32px] px-[20px] flex items-center bg-[#150050] text-white border border-[#DCDCDC] rounded-[5px] font-bold'>Try for free</button>
+        <div className="lg:flex hidden items-center ml-auto space-x-[20px] text-[12px]">
+          <button className="h-[32px] px-[20px] flex items-center bg-white border border-[#DCDCDC] text-black rounded-[5px] font-bold">Log in</button>
+          <button className="h-[32px] px-[20px] flex items-center bg-[#150050] text-white border border-[#DCDCDC] rounded-[5px] font-bold">Try for free</button>
         </div>
-
+      </div>
     </header>
-
-    
   )
 }
 
