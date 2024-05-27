@@ -55,7 +55,7 @@ const [images, setImages] = useState<ImageData[]>([]);
   }, []);
 
   if (posts.length === 0 || images.length === 0) {
-    return <div className="bg-backgroundColor text-black">Loading...</div>;
+    return <div className="bg-backgroundColor text-center text-4xl py-20 text-black">Loading...</div>;
   }
 
   return (
