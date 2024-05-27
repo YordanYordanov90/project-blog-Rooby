@@ -14,11 +14,11 @@ const BlogSection = () => {
         </div>
         <div>
           <Image
-            src="/imageService.png"
+            src="/ImageService.png"
             alt="image"
             width={555}
             height={370}
-          ></Image>{" "}
+          ></Image>
         </div>
       </div>
   )
