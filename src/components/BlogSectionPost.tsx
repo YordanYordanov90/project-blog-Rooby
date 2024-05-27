@@ -3,9 +3,25 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
+type Post = {
+  id: number;
+  userId: number;
+  title: string;
+  // Add other properties as needed
+};
+
+type ImageData = {
+  albumId: number;
+  id: number;
+  title: string;
+  url: string;
+  thumbnailUrl: string;
+  // Add other properties as needed
+};
+
 const BlogSectionPost = () => {
-  const [posts, setPosts] = useState([]);
-  const [images, setImages] = useState([]);
+  const [posts, setPosts] = useState<Post[]>([]);
+const [images, setImages] = useState<ImageData[]>([]);
 
   useEffect(() => {
     const fetchPostsAndImages = async () => {
